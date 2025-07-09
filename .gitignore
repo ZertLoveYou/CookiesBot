@@ -1,0 +1,13 @@
+# Ignore compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore config and sensitive data
+data/*.json
+logs/
+
+# Ignore system/editor files
+.DS_Store
+.vscode/
+*.log
+.env
